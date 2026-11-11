@@ -1,0 +1,21 @@
+{
+  "name": "playwright-pom-cli-tusher",
+  "version": "1.0.0",
+  "description": "Playwright POM framework assignment — Sauce Demo login (data-driven)",
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:headed": "playwright test tests/login.spec.js --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "pom",
+    "saucedemo"
+  ],
+  "author": "Tusher Dhali",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
