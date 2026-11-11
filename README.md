@@ -40,9 +40,3 @@ Expected: **3 passed** (1 success + 2 error cases).
 |------------------|---------------|--------------|
 | standard_user    | secret_sauce  | Valid login  |
 | locked_out_user  | secret_sauce  | Locked error |
-
-## Report notes (for submission doc)
-
-**What matched well:** Sauce Demo `data-test` attributes (`username`, `password`, `login-button`, `error`, `title`, `inventory-list`) map cleanly to POM locators. The data-driven JSON loop (1 success / 2 errors) matches the assignment exactly.
-
-**What to verify yourself:** Confirm locators in the browser DevTools if the site UI changes. Capture screenshots of (1) this folder structure and (2) the CLI output of `npm run test:login` showing 3 passing cases for your report doc.
